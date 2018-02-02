@@ -1,0 +1,5 @@
+@import '../common/coupon.wxss';
+
+page {
+  background: #fff;
+}

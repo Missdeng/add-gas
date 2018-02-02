@@ -1,0 +1,38 @@
+<!--pages/applicable-store/applicable-store.wxml-->
+<view class='container'>
+  <view class='title'>共2家门店</view>
+  <view class='content'>
+    <view class='list'>
+      <!--每一项  -->
+      <view class='list-item'>
+        <view class='item'>
+          <view class='item-name'>武汉加油站</view>
+          <view class='item-kilo'>
+            <text class='color-a9a9a9 fs-15'>233km</text>
+          </view>
+        </view>
+        <view class='item' style='margin-top:-0.4rem;'>
+          <view class='address color-a9a9a9'>武汉市长汀区万福大街1886号</view>
+          <view class='nav color-ed5965'>
+            <image class='icon' src='../../../images/icon/navigation.png'></image>
+          </view>
+        </view>
+      </view>
+      <!--每一项  -->
+      <view class='list-item'>
+        <view class='item'>
+          <view class='item-name'>武汉加油站</view>
+          <view class='item-kilo'>
+            <text class='color-a9a9a9 fs-15'>233km</text>
+          </view>
+        </view>
+        <view class='item' style='margin-top:-0.4rem;'>
+          <view class='address color-a9a9a9'>武汉市长汀区万福大街1886号</view>
+          <view class='nav color-ed5965'>
+            <image class='icon' src='../../../images/icon/navigation.png'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

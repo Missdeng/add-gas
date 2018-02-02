@@ -1,0 +1,41 @@
+<!--pages/tpls/store-cell/store-cell.wxml-->
+<template name="store-cell">
+  <view class='list'>
+    <view class='list-item'>
+      <view class='pic-box'>
+        <image src='../../../images/icon/pos.png' mode='aspectFill'></image>
+      </view>
+      <view class='title-box'>
+        <view class='title fs-15'>启路汽车美容店</view>
+        <view class='sub-title fs-13 color-a9a9a9'>武汉市长汀区万福大街1886号</view>
+      </view>
+      <view class='distance fs-13 color-a9a9a9'>
+        4.35km
+      </view>
+    </view>
+    <view class='list-item'>
+      <view class='pic-box'>
+        <image src='../../../images/icon/pos.png' mode='aspectFill'></image>
+      </view>
+      <view class='title-box'>
+        <view class='title fs-15'>启路汽车美容店</view>
+        <view class='sub-title fs-13 color-a9a9a9'>武汉市长汀区万福大街1886号</view>
+      </view>
+      <view class='distance fs-13 color-a9a9a9'>
+        4.35km
+      </view>
+    </view>
+    <view class='list-item'>
+      <view class='pic-box'>
+        <image src='../../../images/icon/pos.png' mode='aspectFill'></image>
+      </view>
+      <view class='title-box'>
+        <view class='title fs-15'>启路汽车美容店</view>
+        <view class='sub-title fs-13 color-a9a9a9'>武汉市长汀区万福大街1886号</view>
+      </view>
+      <view class='distance fs-13 color-a9a9a9'>
+        4.35km
+      </view>
+    </view>
+  </view>
+</template>

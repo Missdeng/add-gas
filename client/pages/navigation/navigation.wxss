@@ -1,0 +1,41 @@
+/* pages/navigation/navigation.wxss */
+
+.map-box {
+  position: absolute;
+  top: 0px;
+  bottom: 45px;
+  left: 0px;
+  right: 0px;
+}
+
+#navi-map {
+  width: 100%;
+  height: 100%;
+}
+
+.distance {
+  position: absolute;
+  bottom: 50px;
+  right: 5px;
+  left: 80%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background: #ED5965;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgba(255, 0, 0, 0.5);
+}
+
+swiper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: green;
+  background: #fff;
+}

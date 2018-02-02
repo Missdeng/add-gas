@@ -1,0 +1,52 @@
+/* pages/car/service-catalog/service-catalog.wxss */
+@import "../../tpls/store-cell/store-cell";
+
+.header {
+  height: 4rem;
+}
+
+.header >image {
+  height: inherit;
+  width:100%;
+}
+
+.header-desc {
+  position: relative;
+  top: -105%;
+  height: inherit;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/*搜索下拉列表选择部分  */
+
+.search-list-bar {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+}
+
+.search-list-bar >.search-item {
+  flex: 1;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  border: 1px solid #f7f7f7;
+  border-radius: 0.05rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-item:last-child {
+  margin-right: 0;
+}

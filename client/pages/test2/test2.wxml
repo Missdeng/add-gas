@@ -1,0 +1,2 @@
+<!--pages/test2/test2.wxml-->
+<button open-type="launchApp" app-parameter="wechat" binderror="launchAppError">打开APP</button>
